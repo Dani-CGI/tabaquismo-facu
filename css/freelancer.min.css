@@ -1,0 +1,319 @@
+/*!
+ * Start Bootstrap - Freelancer v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
+ */body{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;overflow-x:hidden; }
+
+/* ESTO ES PARA EL CARTE */
+.importa {
+    text-align: center;
+    color: #7fbd00;
+    padding: 20px; 
+    /* font-weight: 100; */
+    border-top: 2px solid #ffe10b;
+	border-bottom:2px solid #ffe10b; 
+}
+footer.footer-iosfa{
+	background:#009db9; padding:40px 0 20px
+}
+footer.footer-iosfa .container, footer.mindef .container{ width:97%; text-align:center}
+footer.footer-iosfa p{
+    color: white;  
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+footer.footer-iosfa p img{ max-width:24px; max-height:24px}
+footer.footer-iosfa .fa {
+    display: inline-block;
+    font: normal normal normal 20px/27px FontAwesome;
+    font-size: 22px;
+    text-rendering: auto;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+footer.footer-iosfa .mapa{ color: white;}
+footer.mindef{ padding:10px 0; background:#373737}
+footer.mindef img{max-width:140px}
+.titul{ color:#29c3ec;
+}
+
+
+/*esto es para celulares tanto el pie como los iconos de info, juegos,alimentacion */
+.col-xs-3 {position: relative;
+    width: 50%;
+    min-height: 1px;
+	padding-right: 10px;
+    padding-left: 20px;
+}
+
+.col-xs-4 {position: relative;
+    width: 30%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+p.logo { text-align:right;}	
+p.centro { text-align:center; color: white;}	
+p{ /*text-align:justify;*/
+	font-size: 18px;
+	}
+
+p.small{font-size:16px}
+a,a.active,a:active,a:focus,a:hover{color:#42c0ec;outline:0} /*#42c0ec*/
+h1,h2,h3,h4,h5,h6{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700;/*text-transform:uppercase;*/}
+hr.star-light,hr.star-primary{max-width:250px;margin:25px auto 30px;padding:0;text-align:center;border:none;border-top:solid 5px}
+hr.star-light:after,hr.star-primary:after{font-family:FontAwesome;font-size:2em;position:relative;top:-.8em;display:inline-block;padding:0 .25em;content:'\f005'}
+hr.star-light{border-color:#fff}
+hr.star-light:after{color:#fff;background-color: #3CC;}
+hr.star-primary{border-color:#2c3e50}
+hr.star-primary:after{color:#2c3e50;background-color:#fff}
+
+
+section{padding:15px 0}
+section h1{font-size:2.3em; margin:0; line-height: 1em !important;}
+section h2{font-size:1.4em;margin:0}
+section.success{color:#fff;background:#42c0ec}
+
+@media (max-width:767px){section{padding:75px 0}
+section.first{padding-top:75px}
+}
+
+
+.scroll-top{position:fixed;z-index:1049;right:2%;bottom:2%;width:50px;height:50px}
+
+
+.scroll-top .btn{font-size:18px;line-height:28px;width:50px;height:50px;text-align:center;border-radius:100%;}  
+
+
+.scroll-top .btn:focus{outline:0}
+
+.btn-primary:active{color: white; background-color: #42c0ec !important; border-color: #42c0ec !important;}
+.btn-primary:hover{color: white; background-color: rgba(75,131,158,1); border-color: rgba(116,177,170,1);}
+
+
+#mainNav{
+    background: #42c0ec;
+	font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	/* font-weight: 700; */
+	text-transform: uppercase;
+	border: none;
+	/* background-color: #d5f0e3;  /*42c0ec*/ /*aca se cambia el color de la barra de navegacion */ /* todos los meses hay que cambiar aca */
+}
+#mainNav a:focus{outline:0}
+#mainNav .navbar-brand{font-size:1.1rem;color:#42c0ec;background: #42c0ec;}
+#mainNav .navbar-brand.active,#mainNav .navbar-brand:active,#mainNav .navbar-brand:focus,
+#mainNav .navbar-nav{letter-spacing:1px; width:100%;}
+#mainNav .navbar-nav li.nav-item a.nav-link{
+	color: #29c3ec;  /*color barra  de navegacion 31/07*/
+}
+#mainNav .navbar-toggler {
+    font-size: 14px;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    border-color: #fff;
+    background: #42c0ec;
+    border-radius: 0;
+	z-index:900;
+    float: right;
+}
+
+ #mainNav .navbar-collapse li.nav-item a.nav-link{color:#ffffff; font-size: 16px; font-weight: bold;border-color: #fff;}
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #42c0ec; /*42c0ec /// cambio color  toda la barra   */
+    width: 100%;
+    left: 0;
+    top: 0;
+    /* padding: 10px 10px 10px 10px; */
+	text-align:center;
+}
+ul{
+    align-content: center;
+}
+.h1, h1 {
+    font-size: 30px;
+    line-height: 30px;
+}
+section#contact{padding-bottom:30px}
+@media (min-width:992px){
+/*!aca padding-bottom:25px */
+#mainNav{ -webkit-transition:padding-top .3s,padding-bottom .3s;-moz-transition:padding-top .3s,padding-bottom .3s;transition:padding-top .3s,padding-bottom .3s;}
+
+#mainNav .navbar-brand{font-size:2em;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active {
+    color: #42c0ec; /*42c0ec*//* color de */	
+    border-radius: 0px;
+    /* background: #ff@f; */
+}
+/* #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,#mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover{color:#fff;}  */
+/*42c0ec color del menu cuando pasas por arriba */ 
+/* #mainNav.navbar-shrink{padding-top:10px;padding-bottom:10px;} */
+
+/*!aca padding-bottom:50px borré }
+ delante de header.masthead */
+#mainNav.navbar-shrink .navbar-brand{font-size:1.5em}
+ header.masthead{
+	padding-top: 100px;
+	padding-bottom: 2%;
+	text-align: center;
+	color: #fff;
+	background-color:#ffffff;/*aca se modifica el color detras de la imagne del header. */
+}
+header.masthead img{display:block;margin:0 auto}
+
+header.masthead .intro-text .name{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:2em;font-weight:700;display:block;text-transform:uppercase}
+header.masthead .intro-text .skills{font-size:1.25em;font-weight:300}
+
+
+
+	@media (min-width:768px){header.masthead{padding-top:100px;padding-bottom:0px}
+header.masthead .intro-text .name{font-size:4.75em}
+header.masthead .intro-text .skills{font-size:1.75em}
+}
+
+	#portfolio .portfolio-item{right:0;margin:0 0 15px}
+#portfolio .portfolio-item .portfolio-link{position:relative;display:block;max-width:400px;margin:0 auto;cursor:pointer}
+#portfolio .portfolio-item .portfolio-link .caption{position:absolute;width:100%;height:100%;-webkit-transition:all ease .5s;-moz-transition:all ease .5s;transition:all ease .5s;opacity:0;background:rgba(24,188,156,.9)}
+#portfolio .portfolio-item .portfolio-link .caption:hover{opacity:1}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content{font-size:20px;position:absolute;top:50%;width:100%;height:20px;margin-top:-12px;text-align:center;color:#fff}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i{margin-top:-12px}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,#portfolio .portfolio-item .portfolio-link .caption .caption-content h4{margin:0}
+#portfolio *{z-index:2}
+
+	@media (min-width:767px){#portfolio .portfolio-item{margin:0 0 30px}
+}
+.portfolio-modal .modal-dialog{max-width:100%;min-height:100%;margin:0;padding:0;text-align:center;border:none;border-radius:0;background-clip:border-box;-webkit-box-shadow:none;box-shadow:none}
+.portfolio-modal .modal-dialog .modal-content{padding:100px 0;border:0;border-radius:0}
+.portfolio-modal .modal-dialog .modal-content h2{font-size:3em;margin:0}
+.portfolio-modal .modal-dialog .modal-content img{margin-bottom:30px}
+.portfolio-modal .modal-dialog .modal-content .item-details{margin:30px 0}
+.portfolio-modal .close-modal{position:absolute;top:25px;right:25px;width:75px;height:75px;cursor:pointer;background-color:transparent}
+.portfolio-modal .close-modal:hover{opacity:.3}
+.portfolio-modal .close-modal .lr{z-index:1051;width:1px;height:75px;margin-left:35px;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);background-color:#2c3e50}
+.portfolio-modal .close-modal .lr .rl{z-index:1052;width:1px;height:75px;-webkit-transform:rotate(90deg);-ms-transform:rotate(90deg);transform:rotate(90deg);background-color:#2c3e50}
+.portfolio-modal .modal-backdrop{display:none;opacity:0}
+.floating-label-form-group{position:relative;margin-bottom:0;padding-bottom:.5em;border-bottom:1px solid #eee}
+.floating-label-form-group input,.floating-label-form-group textarea{font-size:1.5em;position:relative;z-index:1;padding-right:0;padding-left:0;resize:none;border:none;border-radius:0;background:0 0;box-shadow:none!important}
+.floating-label-form-group label{font-size:.85em;line-height:1.764705882em;position:relative;z-index:0;top:2em;display:block;margin:0;-webkit-transition:top .3s ease,opacity .3s ease;-moz-transition:top .3s ease,opacity .3s ease;-ms-transition:top .3s ease,opacity .3s ease;transition:top .3s ease,opacity .3s ease;vertical-align:middle;vertical-align:baseline;opacity:0}
+.floating-label-form-group:not(:first-child){padding-left:14px;border-left:1px solid #eee}
+.floating-label-form-group-with-value label{top:0;opacity:1}
+.floating-label-form-group-with-focus label{color:#42c0ec}
+form .row:first-child .floating-label-form-group{border-top:1px solid #eee}
+footer{color:#fff}
+footer h3{margin-bottom:30px}
+footer .footer-above{padding-top:50px;background-color:#2c3e50}
+footer .footer-col{margin-bottom:50px}
+footer .footer-below{padding:25px 0;background-color:#2c3e50}
+.btn-outline{font-size:20px;margin-top:15px;transition:all .3s ease-in-out;color:#fff;border:solid 2px #fff;background:0 0}
+.btn-outline.active,.btn-outline:active,.btn-outline:focus,.btn-outline:hover{color:#42c0ec;border:solid 2px #fff;background:#fff}
+.btn-primary{font-weight:700;color:#fff;border-color:#2c3e50;background-color:#2c3e50}
+.btn-primary.focus,.btn-primary:focus{color:#fff;border-color:#000;background-color:#1a252f}
+.btn-primary:hover{color:#fff;border-color:#161f29;background-color:#1a252f}
+.btn-primary.active,.btn-primary:active,.open>.btn-primary.dropdown-toggle{color:#fff;border-color:#161f29;background-color:#1a252f}
+.btn-primary.active.focus,.btn-primary.active:focus,.btn-primary.active:hover,.btn-primary:active.focus,.btn-primary:active:focus,.btn-primary:active:hover,.open>.btn-primary.dropdown-toggle.focus,.open>.btn-primary.dropdown-toggle:focus,.open>.btn-primary.dropdown-toggle:hover{color:#fff;border-color:#000;background-color:#0d1318}
+.btn-primary.active,.btn-primary:active,.open>.btn-primary.dropdown-toggle{background-image:none}
+.btn-primary.disabled.focus,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled].focus,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary.focus,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover{border-color:#2c3e50;background-color:#2c3e50}
+.btn-primary .badge{color:#2c3e50;background-color:#fff}
+.btn-success{font-weight:700;color:#fff;border-color:#42c0ec;background-color:#42c0ec}
+.btn-success.focus,.btn-success:focus{color:#fff;border-color:#0a4b3e;background-color:#128f76}
+.btn-success:hover{color:#fff;border-color:#11866f;background-color:#128f76}
+.btn-success.active,.btn-success:active,.open>.btn-success.dropdown-toggle{color:#fff;border-color:#11866f;background-color:#128f76}
+.btn-success.active.focus,.btn-success.active:focus,.btn-success.active:hover,.btn-success:active.focus,.btn-success:active:focus,.btn-success:active:hover,.open>.btn-success.dropdown-toggle.focus,.open>.btn-success.dropdown-toggle:focus,.open>.btn-success.dropdown-toggle:hover{color:#fff;border-color:#0a4b3e;background-color:#0e6f5c}
+.btn-success.active,.btn-success:active,.open>.btn-success.dropdown-toggle{background-image:none}
+.btn-success.disabled.focus,.btn-success.disabled:focus,.btn-success.disabled:hover,.btn-success[disabled].focus,.btn-success[disabled]:focus,.btn-success[disabled]:hover,fieldset[disabled] .btn-success.focus,fieldset[disabled] .btn-success:focus,fieldset[disabled] .btn-success:hover{border-color:#42c0ec;background-color:#42c0ec}
+.btn-success .badge{color:#42c0ec;background-color:#fff}
+.btn-social{font-size:20px;line-height:45px;display:inline-block;width:50px;height:50px;text-align:center;border:2px solid #fff;border-radius:100%}
+.btn.active,.btn:active,.btn:focus{outline:0}
+
+
+.panel-body{   
+    padding: 0px 0 40px;
+}
+
+
+.caja{ border:1px solid #eee; border-radius:4px; padding:20px; display:block; margin:15px 0; }
+.caja1{ border:1px solid #eee; border-radius:4px; padding:20px; display:block; margin:15px 0; }
+
+.caja .temas{color:#000; text-align:center;}
+
+.caja ul.list-inline {
+	text-align:center;
+    border-top: 1px solid #ddd;
+    padding: 10px 0 0;
+    margin: 20px 0 0;
+}
+
+.caja .list-inline-item{margin:0 10px;}
+
+#contact .col-4{float:left}
+
+#contact h5{ font-weight: 200;
+    background: #cfe6e4; 
+    padding: 10px;
+    color: #42c0ec;
+}
+/*  donde es en la campaña hipertension ya qye asi se llama mi id */
+#donde h5{ font-weight: 200;
+    background: #cae2ed; 
+    padding: 10px;
+    color: #3159a7;
+}
+#donde .col-4{float:left}
+
+#donde h4{   
+    color: #3159a7;
+    padding: 20px;
+    font-weight: 100;
+    border-top: 2px solid #cae2ed;
+}
+.important { font-weight: 700;
+    background: #b64a4e; 
+    padding:10px;
+    color: #cfe6e4;}
+
+.import{  font-weight: 700;     
+    padding:10px;
+    }
+a.import:hover{color:#cfe6e4;}
+a, a.import, a:active, a:focus {color:#cfe6e4 cfe6e4;} 
+	
+/*  donde es en la campaña hipertension ya qye asi se llama mi id */
+
+#contact h4{   
+    color: #42c0ec;
+    padding: 20px;
+    font-weight: 100;
+    border-top: 2px solid #42c0ec;
+}
+
+#contact h3{    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+h3 small, .temas small{font-size:13px; margin-bottom:10px; display:block}
+.btn-primary {
+    color: #fff;
+  background-color: rgba(116,177,170,1);
+    border-color: rgba(75,131,158,1);
+}  /*este es el color del boton que sube cuando la pantalla es mas chica */
+@media (max-width:400px){
+	.iosfa img {
+    width: 60%;
+    height: auto;
+}
+#mainNav{background:#42c0ec}
+.masthead{background:#ffffff;} /* este color se cambiar porq cuando esta en celular queda con otro color de fondo*/
+.masthead .container{ padding:60px 0 0 0}
+#portfolio{ border-top:1px solid #fff !important}
+.navbar-shrink .navbar-collapse {
+    padding: 90px 30px 10px !important;
+}
+}
